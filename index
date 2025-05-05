@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int a, b, somme;
+
+    printf("Entrez le premier nombre : ");
+    scanf("%d", &a);  // lire le premier nombre
+
+    printf("Entrez le deuxeeme nombre : ");
+    scanf("%d", &b);  // lire le deuxieme nombre
+
+    somme = a + b;  // faire la somme
+
+    printf("La somme de %d et %d est %d.\n", a, b, somme);
+
+    return 0;  
+    ?
+
+}
+
